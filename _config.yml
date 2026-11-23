@@ -23,12 +23,25 @@ description: >- # this means to ignore newlines until "baseurl:"
   A site to stor lore documents for our roleplay.
 baseurl: "/RP-Lore-Docs" # the subpath of your site, e.g. /blog
 url: "https://github.com/Winter-dreams" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Winter-dreams
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+collections:
+    people:
+        output: true
+    places:
+        output: true
+    concepts:
+        output: true
+    organizations:
+        output: true
+    events:
+        output: true
+    
+    
 
 # Exclude from processing.
 # The following items will not be processed, by default.
