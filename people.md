@@ -7,7 +7,7 @@ permalink: /people/
 {% for person in site.people %}
   <h2>
     <a href="{{ person.url | relative_url }}">
-      {{ person.title }}
+      {{ person.title }} ({{ person.age}})
     </a>
   </h2>
 {% endfor %}

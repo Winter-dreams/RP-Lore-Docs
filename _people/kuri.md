@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Kuri"
+age: 14
 ---
 
 # {{ page.title}}

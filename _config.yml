@@ -40,7 +40,13 @@ collections:
         output: true
     events:
         output: true
-    
+
+defaults:
+  -
+    scope:
+      path: "_people" # an empty string here means all files in the project
+    values:
+      age: "Unknown"    
     
 
 # Exclude from processing.
