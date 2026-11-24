@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+Hi.
+
+There is information here on this site.
