@@ -59,6 +59,7 @@ defaults:
 #
 exclude:
     - sample.md
+    - _people/sample_person.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
